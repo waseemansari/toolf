@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState,useEffect } from 'react';
 import Link from "next/link";
 import style from "../style/compress.module.css"
 import Footer from '../../components/Footer';
@@ -10,13 +10,14 @@ import { toast } from 'react-toastify';
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import "react-pdf/dist/esm/Page/TextLayer.css";
 import { Document, Page, pdfjs } from 'react-pdf';
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 const CompressPdf = () => {
+    useEffect(() => {
+        pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.js';
+      }, []);
     const [pdf, setPdf] = useState(null);
     const fileInputRef = useRef(null);
     const handleClick = (e) => {
@@ -30,8 +31,7 @@ const CompressPdf = () => {
             setPdf({ file, url: fileUrl }); // ✅ Save both file and URL
         }
     };
-    pdfjs.GlobalWorkerOptions.workerSrc =
-        `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+    
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
     const [countPage, setCountPage] = useState(1);
