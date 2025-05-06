@@ -81,7 +81,7 @@ const Contact = () => {
                 <div className="col-lg-6 col-md-8 col-sm-12">
                     <div className="card text-white bg-purple p-4 h-100">
                         <h3 style={{color: "white"}}>Call Us Now</h3>
-                        <p>If you have any question concerning our services or policy, don't hesitate to contact us.</p>
+                        <p>If you have any question concerning our services or  hesitate to contact us.</p>
                         <h2>+111 26 26 000</h2>
                         <p>info@ilovepdf.com</p>
                     </div>

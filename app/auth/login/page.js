@@ -126,7 +126,7 @@ const Login = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
                         <div className="card text-center shadow-sm p-4 login-box">
                             <h4>Create Your New <br />Account</h4>
-                            <p>If You Have Any Question Concerning <br /> Our Services Or Policy, Don't Hesitate <br /> To Contact Us.</p>
+                            <p>If You Have Any Question Concerning <br /> Our Services Or Policy Hesitate <br /> To Contact Us.</p>
                             <Link href="/register" className="btn btn-warning w-100">Create Account</Link>
                         </div>
                     </div>

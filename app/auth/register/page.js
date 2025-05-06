@@ -140,7 +140,7 @@ const Register = () => {
                     <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center">
                         <div className="card text-center shadow-sm p-4 login-box">
                             <h4>Login Into Your <br/> Account</h4>
-                            <p>If You Have Any Question Concerning Our Services Or Policy, Don't Hesitate To Contact Us.</p>
+                            <p>If You Have Any Question Concerning Our Services Or  Hesitate To Contact Us.</p>
                             <Link href="#" className="btn btn-warning w-100">Login</Link>
                         </div>
                     </div>
