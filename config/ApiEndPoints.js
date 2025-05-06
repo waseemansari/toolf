@@ -1,5 +1,6 @@
 
-const BASE_URL = "http://localhost:8080/api/v1/"; 
+// const BASE_URL = "http://localhost:8080/api/v1/"; 
+const BASE_URL = "https://srv593857.hstgr.cloud:8081/api/v1/"; 
 
 export const API_END_POINTS = {
   login: BASE_URL + "auth/login",
