@@ -1,0 +1,430 @@
+
+
+.pdf-section {
+    background-color: #f9f9f9;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+}
+
+.pdf-section h1, .pdf-section p {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.navbar-nav {
+    flex-direction: row;
+    margin-right: auto; /* Pushes the buttons to the right */
+}
+
+.nav-item {
+    margin-left: 15px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-btns {
+    display: flex;
+    align-items: center;
+}
+
+.btn-create-account {
+
+    border: none;
+    color: black;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.btn-start-trial {
+    background-color: #F56129;
+    ;
+    ;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+.logo {
+    height: 40px; /* Adjust the height as needed */
+    max-width: 100%; /* Ensure the logo does not exceed its container width */
+}
+
+
+.main-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 15px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* Set a maximum width */
+    transform: scale(0.8); /* Scale the image to 80% of its original size */
+    transform-origin: center; /* Ensures the image scales from its center */
+}
+
+
+
+
+
+  
+  
+/* Custom header background and text styling */
+.custom-header {
+    background-color: #5f20da; /* Matching the purple background */
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 300px; /* Adjust the height as per your design */
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); /* V shape with straight sides */
+}
+
+/* Heading styling */
+.custom-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* Footer links */
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .custom-header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-header h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+  
+  
+  /* Join Section Styling */
+  .join-section {
+    background-color:  #5A26EF;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .join-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .join-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-start, .btn-pricing {
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin: 10px;
+  }
+  
+  .btn-start {
+    background-color: #4A63F6;
+    color: white;
+  }
+  
+  .btn-pricing {
+    background-color: white;
+    color: #ff6600;
+    border: 2px solid white;
+  }
+  
+  /* Link list in join section */
+  .join-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .join-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .join-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .join-links ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .join-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social media icons */
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5rem;
+    color: black;
+    margin: 0 10px;
+  }
+  
+  /* Copyright */
+  .copyright-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .copyright-section p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1199px) {
+    /* Adjustments for tablets and smaller desktops */
+    .faq-heading {
+      font-size: 1.75rem;
+    }
+    
+    .join-section h2 {
+      font-size: 1.75rem;
+    }
+    
+    .join-section p {
+      font-size: 1rem;
+    }
+    
+    .btn-start, .btn-pricing {
+      font-size: 0.9rem;
+      padding: 8px 20px;
+    }
+    
+    .join-links {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .join-links ul {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    /* Adjustments for larger tablets and small desktops */
+    .faq-section {
+      padding: 30px;
+    }
+    
+    .faq-heading {
+      font-size: 1.5rem;
+    }
+    
+    .join-section {
+      padding: 30px;
+    }
+    
+    .join-section h2 {
+      font-size: 1.5rem;
+    }
+    
+    .join-section p {
+      font-size: 0.9rem;
+    }
+    
+    .btn-start, .btn-pricing {
+      font-size: 0.9rem;
+      padding: 8px 20px;
+    }
+    
+    .join-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* Adjustments for mobile screens */
+    .faq-section {
+      padding: 20px;
+    }
+    
+    .faq-heading {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+    
+    .faq-description {
+      margin-bottom: 15px;
+    }
+    
+    .join-section {
+      padding: 20px;
+    }
+    
+    .join-section h2 {
+      font-size: 1.25rem;
+    }
+    
+    .join-section p {
+      font-size: 0.85rem;
+    }
+    
+    .btn-start, .btn-pricing {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+    
+    .join-links {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .join-links ul {
+      margin-bottom: 10px;
+    }
+    
+    .social-icons i {
+      font-size: 1.2rem;
+    }
+    
+    .copyright-section {
+      font-size: 0.8rem;
+    }
+  }
+  
+  
+  
+
+
+
+
+
+
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 12px;
+
+  }
+  
+  .btn-orange {
+    background-color: #ff6600;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 0;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .btn-orange:hover {
+    background-color: #ff6600;
+  }
+  
+  .login-box {
+    background: #5A26EF;
+
+    color: white;
+  }
+  
+  .login-box h4 {
+    font-weight: bold;
+  }
+  
+  .login-box p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group-text img {
+    border-radius: 50%;
+  }
+  
+  /* Ensure responsiveness */
+  @media (max-width: 768px) {
+    .row {
+      margin: 0;
+    }
+  
+    .login-box {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Add black border to the signup form */
+.signup-card {
+    border: 2px solid rgb(206, 202, 202); /* Black border */
+    padding: 20px;
+  }
+  
+  
+  
+  
+
+
+
+
+
+  h4 {
+    font-weight: bold;
+}
+
+a.text-primary {
+    font-weight: 500;
+    color: #007bff; /* Bootstrap's primary blue color */
+}
+
+a.text-primary:hover {
+    color: #0056b3; /* Darken the color on hover */
+}
+
+/* Ensure proper spacing for logos and responsive layout */
+.img-fluid {
+    max-width: 100px; /* Control size of logos */
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .row img {
+        max-width: 80px;
+    }
+}

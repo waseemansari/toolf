@@ -1,0 +1,247 @@
+.pdfSection {
+    background-color: #f9f9f9;
+}
+
+.navbarBrand, .navbarNav .navLink {
+    font-family: 'Inter', sans-serif;
+}
+
+.pdfSection , .pdfSection p {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.navbarNav {
+    flex-direction: row;
+    margin-right: auto; /* Pushes the buttons to the right */
+}
+
+.navItem {
+    margin-left: 15px; /* Adjust spacing between nav items */
+}
+
+.navLink {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbarBtns {
+    display: flex;
+    align-items: center;
+}
+
+.btnCreateAccount {
+    border: none;
+    color: black;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.btnStartTrial {
+    background-color: #F56129;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.navbarToggler {
+    border: none;
+}
+
+.logo {
+    height: 40px; /* Adjust the height as needed */
+    max-width: 100%; /* Ensure the logo does not exceed its container width */
+}
+
+.mainImage {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 15px;
+}
+
+.responsiveImage {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* Set a maximum width */
+    transform: scale(0.8); /* Scale the image to 80% of its original size */
+    transform-origin: center; /* Ensures the image scales from its center */
+}
+
+.storeLogo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .mobileImage {
+        right: -30px;
+        bottom: -20px;
+        width: 150px;
+    }
+
+    .pdfSection  {
+        font-size: 1.75rem;
+    }
+}
+
+/* Custom header background and text styling */
+.customHeader {
+    background-color: #5f20da; /* Matching the purple background */
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 300px; /* Adjust the height as per your design */
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); /* V shape with straight sides */
+}
+
+/* Heading styling */
+.customHeader  {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .customHeader  {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .customHeader  {
+        font-size: 1.5rem;
+    }
+}
+
+.containerCustom {
+    padding: 20px;
+}
+
+.pdfPlaceholder {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    height: 350px;
+    width: 500px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pdfPlaceholder img {
+    width: 50px;
+}
+
+.btnQuality {
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.btnConvert {
+    background-color: #ff702a;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+}
+
+.convertSection {
+    margin-top: 20px;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addButton {
+    background-color: #5a26ef;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: absolute;
+    bottom: -50px;
+    right: 10px;
+    margin-right: 350px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .addButton {
+        bottom: -20px;
+        left: calc(50% - 20px); /* Center the button */
+    }
+}
+
+.containerCustom {
+    padding: 20px;
+}
+
+.optionBox {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.optionBox input {
+    margin-left: 10px;
+}
+
+.optionContent {
+    max-width: 80%;
+}
+
+.optionContent strong {
+    font-size: 1.2rem;
+}
+
+.premiumBadge {
+    background-color: #ff702a;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.btnConvert {
+    background-color: #ff702a;
+    color: white;
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .optionBox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btnConvert {
+        font-size: 1rem;
+    }
+}

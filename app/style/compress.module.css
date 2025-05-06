@@ -1,0 +1,331 @@
+
+
+.pdf-section {
+    background-color: #f9f9f9;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+}
+
+.pdf-section , .pdf-section p {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.navbar-nav {
+    flex-direction: row;
+    margin-right: auto; /* Pushes the buttons to the right */
+}
+
+.nav-item {
+    margin-left: 15px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-btns {
+    display: flex;
+    align-items: center;
+}
+
+.btn-create-account {
+
+    border: none;
+    color: black;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.btn-start-trial {
+    background-color: #F56129;
+    ;
+    ;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
+.logo {
+    height: 40px; /* Adjust the height as needed */
+    max-width: 100%; /* Ensure the logo does not exceed its container width */
+}
+
+
+.main-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 15px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 1000px; /* Set a maximum width */
+    transform: scale(0.8); /* Scale the image to 80% of its original size */
+    transform-origin: center; /* Ensures the image scales from its center */
+}
+
+
+.store-logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .mobile-image {
+        right: -30px;
+        bottom: -20px;
+        width: 150px;
+    }
+
+    .pdf-section  {
+        font-size: 1.75rem;
+    }
+}
+
+#pdf-tool-section {
+    /* background: url('background-full.png') no-repeat center center fixed; */
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    color: #fff;
+    position: relative;
+    background:linear-gradient(to bottom,#007bff 50%,  #fff 50%) ;
+   
+  }
+ .section-in{
+  
+    height: 900px;
+    background-color: #5A26EF;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    /* display: inline-block; */
+    clip-path: circle(83% at 51% 3%);
+
+ }
+
+  
+  
+/* Default Styles */
+.tablet-image img {
+  position: absolute;
+  top: 370px;
+  left: 100px; /* Corrected from padding-left to left */
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.btn-lg {
+  font-size: 1.2rem;
+}
+
+.col-md-8.offset-md-2 {
+  padding-top: 259px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1199px) {
+  /* Styles for tablets and small screens */
+  .tablet-image img {
+      left: 50px; /* Adjust positioning for smaller screens */
+      top: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Styles for large tablets and small desktops */
+  .tablet-image img {
+      left: 20px; /* Further adjust positioning */
+      top: 150px;
+  }
+  
+  .btn-lg {
+      font-size: 1rem; /* Adjust button font size for smaller devices */
+  }
+  
+  .col-md-8.offset-md-2 {
+      padding-top: 100px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile screens */
+  .tablet-image img {
+      position: static; /* Let the image flow naturally */
+      top: auto; /* Remove absolute positioning */
+      left: auto; /* Remove left positioning */
+      margin: 0 auto; /* Center the image horizontally */
+      display: block; /* Ensure block display */
+      max-width: 90%; /* Adjust image width to fit mobile screens */
+  }
+  
+   
+  .btn-lg {
+      font-size: 1rem; /* Adjust button font size */
+      padding: 0.5rem 1rem; /* Adjust button padding */
+  }
+  
+  .col-md-8.offset-md-2 {
+      padding-top: 1rem; /* Reduce padding for mobile screens */
+  }
+}
+/* Custom header background and text styling */
+.customHeader {
+    background-color: #5f20da; /* Matching the purple background */
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 300px; /* Adjust the height as per your design */
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); /* V shape with straight sides */
+}
+
+/* Heading styling */
+.custom-header  {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+/* Footer links */
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .custom-header  {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-header  {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.pdfThumbnail {
+    position: relative;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+  }
+
+  .pdfThumbnail img {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+  }
+
+  .deleteIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff6348;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .compressionOptions {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .compressionOption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .compressionOption:hover {
+    background-color: #f1f1f1;
+  }
+
+  .compressionOption.active {
+    background-color: #6c5ce7;
+    color: white;
+  }
+
+  .optimizeSlider {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .optimizeSlider .slider {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+
+  .compressButton {
+    background-color: #ff6348;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  .compress-button:hover {
+    background-color: #ff4500;
+  }
+
+  @media (max-width: 768px) {
+    .compressionOptions, .pdfThumbnail {
+      margin-bottom: 20px;
+    }
+  }
+  .deleteIcon img {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+  

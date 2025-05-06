@@ -1,0 +1,973 @@
+       /* Custom CSS */
+       body {
+         margin: 0%;
+         padding: 0%;
+         box-sizing: border-box;
+         background-color: #f2f5fc;
+         font-family: 'Poppins', sans-serif;
+       }
+
+       .navbar {
+         background-color: #fff;
+         padding: 10px 20px;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+       }
+
+       .navbar-brand img {
+         width: 120px;
+       }
+
+       .navbar-nav .nav-link {
+         color: #000;
+         font-weight: 600;
+         font-size: 18px;
+         font-weight: bolder;
+       }
+
+       .navbar-nav .nav-link:hover {
+         color: #ff5722;
+       }
+
+       .upgrade-btn {
+         background-color: #ff5722;
+         color: white;
+         font-weight: bold;
+         border-radius: 20px;
+         padding: 8px 16px;
+       }
+
+       .sidebar {
+         background-color: #4c4db7;
+         padding: 20px;
+       }
+
+       .sidebar .profile-img {
+         border-radius: 50%;
+         width: 60px;
+         height: 60px;
+         margin-bottom: 20px;
+       }
+
+       .sidebar .nav-link {
+         color: #fff;
+         font-weight: 500;
+       }
+
+       .content {
+         padding: 20px;
+       }
+
+       .card {
+         border-radius: 10px;
+         background-color: #fff;
+       }
+
+       .card h2 {
+         font-weight: bold;
+       }
+
+       .social-links a {
+         margin-right: 10px;
+         border: none;
+       }
+
+       .footer-buttons button {
+         border-radius: 20px;
+         padding: 10px 20px;
+         font-weight: bold;
+       }
+
+       /* Remove underline from all links in the nav */
+       .nav-link,
+       .nav-item a {
+         text-decoration: none;
+       }
+
+       .nav-item a:hover {
+         text-decoration: none;
+         /* Ensures no underline appears on hover */
+       }
+
+
+       .profile img {
+         width: 80px;
+         height: 80px;
+       }
+
+       .nav-link {
+         font-size: 16px;
+       }
+
+       .footer-buttons {
+         min-width: 100px;
+       }
+
+
+
+       .header-divider {
+         border: 0;
+         height: 3px;
+         /* Adjust the height of the line */
+         background-color: #ccc;
+         /* Adjust the color of the line */
+         margin: 0;
+         /* Remove default margin */
+       }
+
+       /* Horizontal Line */
+       .header-divider {
+         border: 0;
+         height: 2px;
+         /* Adjust the height of the line */
+         background-color: #ccc;
+         /* Adjust the color of the line */
+         margin: 0;
+       }
+
+       /* Promotional Section */
+       .container-fluid {
+         padding-left: 0;
+         /* Ensure the container spans full width */
+         padding-right: 0;
+         /* Ensure the container spans full width */
+       }
+
+       .bg-white {
+         background-color: #ffffff;
+       }
+
+       .promo-text {
+         margin-left: 0;
+         /* Adjust this value if needed */
+       }
+
+       /* Optional adjustments for responsiveness */
+       @media (max-width: 768px) {
+         .promo-text {
+           text-align: center;
+           /* Center text on smaller screens */
+         }
+
+         .custom-left-shift {
+           margin-right: 0;
+           /* Adjust button margin for smaller screens */
+         }
+       }
+
+       .col-md-9 {
+         padding-top: 0%;
+         padding-left: 0%;
+         padding-right: 0%;
+       }
+
+       .row {
+         margin-right: 0%;
+         margin-left: 0%;
+       }
+
+       /* Custom styles to move the heading */
+       h1 {
+         margin-left: 50px;
+         /* Move left */
+         margin-top: 5px;
+         /* Move down */
+       }
+
+
+
+
+
+
+
+
+       /* Set navigation links and dropdowns to black */
+       .navbar-nav .nav-link,
+       .dropdown-menu .dropdown-item {
+         color: black !important;
+         /* Override other colors */
+       }
+
+       /* Set dropdown hover effect */
+       .dropdown-menu .dropdown-item:hover {
+         background-color: #f0f0f0;
+         /* Light gray background on hover */
+         color: black !important;
+       }
+
+
+
+
+
+       /* Remove underline from link */
+       a.btn-link.custom-left-shift {
+         text-decoration: none;
+         color: #5A26EF !important;
+         /* Ensure the color is your preferred shade */
+       }
+
+       /* Optionally, to remove underline on hover as well */
+       a.btn-link.custom-left-shift:hover {
+         text-decoration: none;
+       }
+
+
+
+
+
+
+       .custom-card {
+         border-radius: 10px;
+         background-color: #f8f9fc;
+         border: 1px solid #eaeaea;
+       }
+
+       .nav-pills .nav-link {
+         font-weight: 600;
+         color: #ff6d00;
+       }
+
+       .nav-pills .nav-link.active {
+         color: #000;
+       }
+
+       .edit-link {
+         font-size: 14px;
+         font-weight: 600;
+         color: #F56129;
+
+
+       }
+
+       .form-control {
+         background-color: #f9f9f9;
+         border: 1px solid #e0e0e0;
+         border-radius: 5px;
+         padding: 10px;
+         font-size: 16px;
+         color: #333;
+       }
+
+       .form-control[readonly] {
+         background-color: #f9f9f9;
+       }
+
+       .custom-link {
+         font-size: 16px;
+         text-decoration: none;
+       }
+
+       .form-group img {
+         border-radius: 50%;
+       }
+
+       .form-control:focus {
+         box-shadow: none;
+         border-color: #ccc;
+       }
+
+       /* Remove border and background */
+       .for-control {
+         background-color: transparent;
+         border: none;
+         box-shadow: none;
+         /* Removes any potential shadow from the input */
+         color: #000;
+         /* Keeps the text color visible */
+       }
+
+       /* Optional: Remove focus outline */
+       .form-control:focus {
+         outline: none;
+       }
+
+
+
+
+
+       .button-group {
+         display: flex;
+         gap: 20px;
+         justify-content: flex-end;
+         width: 100%;
+         margin-top: -100px;
+         padding-right: 130px;
+       }
+
+       /* Responsive for medium and small screens */
+       @media (max-width: 1200px) {
+         .button-group {
+           justify-content: center;
+           /* Center buttons for medium screens */
+           margin-top: -120px;
+           padding-right: 0;
+
+         }
+       }
+
+       @media (max-width: 768px) {
+         .button-group {
+           flex-direction: column;
+           /* Stack buttons vertically on small screens */
+           align-items: center;
+           gap: 15px;
+           /* Reduce gap between buttons */
+           margin-top: 10px;
+           /* Adjust top margin for smaller screens */
+           padding-right: 0;
+
+         }
+       }
+
+       .save-btn,
+       .cancel-btn {
+         border-radius: 30px;
+         padding: 10px 30px;
+         font-size: 18px;
+         font-weight: bold;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         transition: all 0.3s ease;
+       }
+
+       .save-btn {
+         background-color: #ff5722;
+         color: white;
+       }
+
+       .cancel-btn {
+         background-color: #000;
+         color: white;
+       }
+
+       .save-btn:hover {
+         background-color: #F56129;
+       }
+
+       .cancel-btn:hover {
+         background-color: #333;
+       }
+
+       /* Responsive button size adjustments */
+       @media (max-width: 768px) {
+
+         .save-btn,
+         .cancel-btn {
+           width: 100%;
+           /* Full width on small screens */
+           padding: 15px 20px;
+           font-size: 16px;
+         }
+       }
+
+
+
+       .upgrad-btn {
+         background-color: #F56129;
+         /* Orange background like the image */
+         color: white;
+         border-radius: 30px;
+         /* Rounded corners */
+         padding: 10px 30px;
+         /* Adjust padding for height and width */
+         font-size: 18px;
+         font-weight: bold;
+         display: inline-block;
+         text-align: center;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         transition: all 0.3s ease;
+       }
+
+       .upgrad-btn:hover {
+         background-color: #F56129;
+         /* Slightly darker orange on hover */
+         color: white;
+         text-decoration: none;
+       }
+
+
+
+
+
+       .form-group {
+         position: relative;
+       }
+
+       .flag-img {
+         position: absolute;
+         top: 50%;
+         left: 10px;
+         transform: translateY(-50%);
+         width: 25px;
+         height: 25px;
+       }
+
+       .form-control {
+         padding-left: 45px;
+         /* Add space for the flag inside the input */
+       }
+
+       .service-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 120px;
+        color: white;
+        font-weight: bold;
+        border-radius: 50%;
+        text-align: center;
+        margin: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: absolute;
+        animation: float 4s ease-in-out infinite;
+    }
+    
+    .purple-box {
+        background-color: #6a0dad;
+        top: 20%;
+        left: 10%;
+        animation-delay: 0s;
+    }
+    
+    .orange-box {
+        background-color: #ff6700;
+        top: 50%;
+        left: 30%;
+        animation-delay: 0.5s;
+    }
+    
+    .green-box {
+        background-color: #2ecc71;
+        top: 20%;
+        right: 10%;
+        animation-delay: 1s;
+    }
+    
+    .purple-box1 {
+        background-color: #6a0dad;
+        bottom: 15%;
+        left: 15%;
+        animation-delay: 1.5s;
+    }
+    
+    .purple-box2 {
+        background-color: #6a0dad;
+        bottom: 15%;
+        right: 15%;
+        animation-delay: 2s;
+    }
+    
+    .service-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    @keyframes float {
+        0%, 100% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    
+
+.pdf-section {
+  background-color: #f9f9f9;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  font-family: 'Inter', sans-serif;
+}
+
+.pdf-section h1, .pdf-section p {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.navbar-nav {
+  flex-direction: row;
+  margin-right: auto; /* Pushes the buttons to the right */
+}
+
+.nav-item {
+  margin-left: 15px; /* Adjust spacing between nav items */
+}
+
+.nav-link {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-btns {
+  display: flex;
+  align-items: center;
+}
+
+.btn-create-account {
+
+  border: none;
+  color: black;
+  margin-left: 10px;
+  padding: 8px 15px;
+}
+
+.btn-start-trial {
+  background-color: #F56129;
+  ;
+  ;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  padding: 8px 15px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+
+
+.logo {
+  height: 40px; /* Adjust the height as needed */
+  max-width: 100%; /* Ensure the logo does not exceed its container width */
+}
+
+
+.main-image {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  border-radius: 15px;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 1000px; /* Set a maximum width */
+  transform: scale(0.8); /* Scale the image to 80% of its original size */
+  transform-origin: center; /* Ensures the image scales from its center */
+}
+
+
+
+
+
+
+
+/* Custom header background and text styling */
+.custom-header {
+  background-color: #5f20da; /* Matching the purple background */
+  position: relative;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 300px; /* Adjust the height as per your design */
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%); /* V shape with straight sides */
+}
+
+/* Heading styling */
+.custom-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Footer links */
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .custom-header h1 {
+      font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-header h1 {
+      font-size: 1.5rem;
+  }
+}
+
+
+
+
+/* Join Section Styling */
+.join-section {
+  background-color:  #5A26EF;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.join-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.join-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-start, .btn-pricing {
+  font-size: 1rem;
+  padding: 10px 30px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.btn-start {
+  background-color: #4A63F6;
+  color: white;
+}
+
+.btn-pricing {
+  background-color: white;
+  color: #ff6600;
+  border: 2px solid white;
+}
+
+/* Link list in join section */
+.join-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.join-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.join-links ul li {
+  margin-bottom: 10px;
+}
+
+.join-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.join-links ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Social media icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  color: black;
+  margin: 0 10px;
+}
+
+/* Copyright */
+.copyright-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.copyright-section p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+  /* Adjustments for tablets and smaller desktops */
+  .faq-heading {
+    font-size: 1.75rem;
+  }
+  
+  .join-section h2 {
+    font-size: 1.75rem;
+  }
+  
+  .join-section p {
+    font-size: 1rem;
+  }
+  
+  .btn-start, .btn-pricing {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+  
+  .join-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .join-links ul {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Adjustments for larger tablets and small desktops */
+  .faq-section {
+    padding: 30px;
+  }
+  
+  .faq-heading {
+    font-size: 1.5rem;
+  }
+  
+  .join-section {
+    padding: 30px;
+  }
+  
+  .join-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .join-section p {
+    font-size: 0.9rem;
+  }
+  
+  .btn-start, .btn-pricing {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+  
+  .join-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Adjustments for mobile screens */
+  .faq-section {
+    padding: 20px;
+  }
+  
+  .faq-heading {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  
+  .faq-description {
+    margin-bottom: 15px;
+  }
+  
+  .join-section {
+    padding: 20px;
+  }
+  
+  .join-section h2 {
+    font-size: 1.25rem;
+  }
+  
+  .join-section p {
+    font-size: 0.85rem;
+  }
+  
+  .btn-start, .btn-pricing {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+  
+  .join-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .join-links ul {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 1.2rem;
+  }
+  
+  .copyright-section {
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+
+}
+
+.btn-orange {
+  background-color: #ff6600;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 0;
+  border: none;
+  font-size: 1rem;
+}
+
+.btn-orange:hover {
+  background-color: #ff6600;
+}
+
+.login-box {
+  background: #5A26EF;
+
+  color: white;
+}
+
+.login-box h4 {
+  font-weight: bold;
+}
+
+.login-box p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.input-group-text img {
+  border-radius: 50%;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+  .row {
+    margin: 0;
+  }
+
+  .login-box {
+    margin-top: 20px;
+  }
+}
+
+/* Add black border to the signup form */
+.signup-card {
+  border: 2px solid rgb(206, 202, 202); /* Black border */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+h4 {
+  font-weight: bold;
+}
+
+a.text-primary {
+  font-weight: 500;
+  color: #007bff; /* Bootstrap's primary blue color */
+}
+
+a.text-primary:hover {
+  color: #0056b3; /* Darken the color on hover */
+}
+
+/* Ensure proper spacing for logos and responsive layout */
+.img-fluid {
+  max-width: 100px; /* Control size of logos */
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .row img {
+      max-width: 80px;
+  }
+}
+
+.service-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: absolute;
+  animation: float 4s ease-in-out infinite;
+}
+
+.purple-box {
+  background-color: #6a0dad;
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.orange-box {
+  background-color: #ff6700;
+  top: 50%;
+  left: 30%;
+  animation-delay: 0.5s;
+}
+
+.green-box {
+  background-color: #2ecc71;
+  top: 20%;
+  right: 10%;
+  animation-delay: 1s;
+}
+
+.purple-box1 {
+  background-color: #6a0dad;
+  bottom: 15%;
+  left: 15%;
+  animation-delay: 1.5s;
+}
+
+.purple-box2 {
+  background-color: #6a0dad;
+  bottom: 15%;
+  right: 15%;
+  animation-delay: 2s;
+}
+
+.service-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}

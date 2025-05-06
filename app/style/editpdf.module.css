@@ -1,0 +1,124 @@
+
+.pdfSection {
+    background-color: #f9f9f9;
+}
+
+.navbarBrand, .navbarNav .navLink {
+    font-family: 'Inter', sans-serif;
+}
+
+.pdfSection , .pdfSection p {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.navbarNav {
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.navItem {
+    margin-left: 15px;
+}
+
+.navLink {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbarBtns {
+    display: flex;
+    align-items: center;
+}
+
+.btnCreateAccount {
+    border: none;
+    color: black;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.btnStartTrial {
+    background-color: #F56129;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 8px 15px;
+}
+
+.navbarToggler {
+    border: none;
+}
+
+.logo {
+    height: 40px;
+    max-width: 100%;
+}
+
+.mainImage {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    border-radius: 15px;
+}
+
+.responsiveImage {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    transform: scale(0.8);
+    transform-origin: center;
+}
+
+.storeLogo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.dot {
+    padding: 40px !important;
+    border: 2px solid gray !important;
+    background: #000;
+}
+
+@media (max-width: 768px) {
+    .mobileImage {
+        right: -30px;
+        bottom: -20px;
+        width: 150px;
+    }
+
+    .pdfSection  {
+        font-size: 1.75rem;
+    }
+}
+
+/* Custom header background and text styling */
+.customHeader {
+    background-color: #5f20da;
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 300px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+}
+
+/* Heading styling */
+.customHeader  {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .customHeader  {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .customHeader  {
+        font-size: 1.5rem;
+    }
+}
