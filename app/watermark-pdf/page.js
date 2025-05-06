@@ -174,7 +174,7 @@ const WaterMarkPDF = () => {
                                     <div className="w-50">
                                         <label className="form-label">Rotation:</label>
                                         <select className="form-select" {...register("rotation")}>
-                                            <option>Dont Rotate</option>
+                                            <option> Dont Rotate</option>
                                             <option>90°</option>
                                             <option>180°</option>
                                             <option>270°</option>
