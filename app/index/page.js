@@ -685,7 +685,7 @@ const Index = () => {
             <section className="testimonial-section">
                 <div className="container">
                     <h1>Why People Love ILovePDF</h1>
-                    <p>The World's Most Innovative Companies Are Collaborating In ILovePDF</p>
+                    <p>The World Most Innovative Companies Are Collaborating In ILovePDF</p>
                     <div className="row justify-content-center">
                         <div className="col-md-8">
                             <div className="testimonial-container d-flex flex-column flex-md-row align-items-center">
@@ -740,7 +740,7 @@ const Index = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Why can't I sign in?
+                                Why cant I sign in?
                             </button>
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
@@ -864,7 +864,7 @@ const Index = () => {
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Why can't I sign in?
+                                        Why cant I sign in?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">

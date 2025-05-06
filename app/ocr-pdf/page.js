@@ -94,7 +94,7 @@ const OcrPdf = () => {
                         <div className="p-4">
                             <h5>OCR PDF</h5>
                             <div className="alert alert-info text-center">
-                                The Accuracy Of Detection Is Increased By Correctly Selecting The Document's Languages.
+                                The Accuracy Of Detection Is Increased By Correctly Selecting The Documents Languages.
                             </div>
 
                             <h5 className="mb-3">Document Languages</h5>

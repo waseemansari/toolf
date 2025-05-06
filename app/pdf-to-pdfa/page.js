@@ -117,7 +117,7 @@ const PDFToPDFA = () => {
                                             <label className="form-check-label" htmlFor="downgradeOption">
                                                 Allow Downgrade of PDF/A Compliance Level
                                             </label>
-                                            <p className="text-muted small">In order to convert to PDF/A, when certain elements are found in the original PDF, it's possible that a conformance downgrade is needed to be able to perform the conversion.</p>
+                                            <p className="text-muted small">In order to convert to PDF/A when certain elements are found in the original PDF its possible that a conformance downgrade is needed to be able to perform the conversion.</p>
                                         </div>
                                         <div className=" add-button mt-4">
                                             <input type="file" {...register("file")} id="file-upload" className="file-upload" accept="application/pdf" />
