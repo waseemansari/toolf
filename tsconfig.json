@@ -21,14 +21,16 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "pages/api/auth/[...nextauth].js"  ],
+    "**/*.tsx",
+    "pages/api/auth/[...nextauth].js"
+  ],
   "exclude": [
     "node_modules"
   ]
