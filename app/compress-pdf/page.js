@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState,useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Link from "next/link";
 import style from "../style/compress.module.css"
 import Footer from '../../components/Footer';
@@ -17,7 +17,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 const CompressPdf = () => {
     useEffect(() => {
         pdfjs.GlobalWorkerOptions.workerSrc = '/pdf.worker.min.js';
-      }, []);
+    }, []);
     const [pdf, setPdf] = useState(null);
     const fileInputRef = useRef(null);
     const handleClick = (e) => {
@@ -31,7 +31,7 @@ const CompressPdf = () => {
             setPdf({ file, url: fileUrl }); // ✅ Save both file and URL
         }
     };
-    
+
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
     const [countPage, setCountPage] = useState(1);
